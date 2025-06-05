@@ -1,0 +1,10 @@
+<h2 appHighlight = 'lightblue' size="25px">Hello Directive</h2>
+<ng-template [appHasPermission]="'user'">
+    <p > this is only for admins</p>
+</ng-template>
+<div appTooltip appTooltipText="hey i am a tooltip">
+    <p>this text has a tooltip!! Do you wanna check!! hover on me!</p>
+</div>
+<div appCopyToClipboard="hello angular, i know you well">hello angular, i know you well</div>
+<p [innerHTML]="'hi angular expert ready to work for google? '| capitalize:true"></p>
+<p *ngFor="let name of names | filter:'sa'">{{name}}</p>
