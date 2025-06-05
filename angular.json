@@ -83,7 +83,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/ngsw-config.json"
             ],
             "styles": [
               "src/styles.css"
